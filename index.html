@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Little Techs Academy</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/15b840d014.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script>
+      window.addEventListener("orientationchange", function() {
+        // Lock the screen orientation to the current orientation
+        if (screen.orientation && screen.orientation.lock) {
+          screen.orientation.lock(screen.orientation.type);
+        }
+      });
+    </script>
+
+  </head>
+<body>
+
+  
+    <img id="Logo" src="Logo(Little Techs Academy).PNG">
+
+    <div>
+      <ul class="ulImgs">
+        <li id="liImgs"><img id="img" src="Teacher helping student.jpg"></li>
+        <li id="liImgs"><img id="img" src="Virtual classroom.webp"></li>
+        <li id="liImgs"><img id="img" src="Kid coding.jpg"></li>
+      </ul>
+    </div> 
+
+    <div class="middleDiv">
+      <div  class="welcome reveal">
+        <welcome>Welcome to LTA where we teach love in every program!</welcome>
+      </div>
+
+      <div class="WebIntro">
+        <div class="divAboutUs reveal">
+          <h2 id="subTitle">About Us:</h2>
+          <p id="prgrphsAboutUs">Little Techs Academy is a company funded in Lebanon and operates worldwide.
+              Here at LTA we teach all kinds of Programming Languages and related topics like
+              Web Development, App Development, Robotics and more! Coding is today's language of creativity.
+              All our children deserve a chance to become Creators instead of Consumers of computer science.
+        </p>
+        </div>
+
+        <div class="divSessions reveal">
+            <h2 id="subTitle">Sessions:</h2>
+            <p id="prgrphs">We offer 3 sessions for every language:
+              <br><div id="prgrphs">1- Basic Learning</div>
+              <br><div id="prgrphs">2- Advanced</div>
+              <br><div id="prgrphs" class="thirdparagraph">3- The student will make a project
+              that includes all the new gained knowledge he/she gained in all three sessions.<br>
+              A Certificate will be given to each student that completes the project with a score based on the creativity of the project.
+              </div>
+            </p>
+        </div>
+      <div class="divOffer reveal">
+        <h3 id="offer">
+          FOR THE NEW COMERS WE OFFER <span style="color:red">20%</span> OFF THE FIRST SESSION AND THE FIRST CLASS IS FREE.
+        </h3>
+      </div> 
+      </div>
+    </div>
+
+    
+    <ul id="ulSessions">
+      <li id="liSessions">
+        <div class="card border-primary mb-3 " id="sessionSize">
+          <div class="card-header" style="font-size:23px; font-weight:bold">Session 1 <span style="color:red; font-weight:bold"> Offer 20%</span></div>
+          <div class="card-body text-primary">
+            <h5 class="card-title">Basic Learning</h5>
+            <p class="card-text"  id="parSessions">By completing Session 1, you will gain fundamental knowledge about Web Develpoment, App Development, ROBLOX and Programming Langauges like Python and Java.<br>
+            </p>
+            <div style="margin-bottom:5px;">
+              <h6 id="viewDetails"><a href="session1.pdf" download>View Session</a></h6>
+                
+          </div>
+        </div>
+      </li>
+
+      <li id="liSessions">
+        <div class=" card text-white bg-secondary mb-3 " id="sessionSize">
+          <div class="card-header" id="sessionsHead">Session 2</div>
+          <div class="card-body">
+            <h5 class="card-title">Advanced</h5>
+            <p class="card-text" id="parSessions">By completing Session 2, you are now ready to create your own Website, Application or a ROBLOX game!!!
+            </p>
+    <br>
+              <h6 id="viewDetails" ><a href="session2.pdf" style="color:white" download>View Session</a></h6>
+                
+          </div>
+          </div>
+        </div>
+      </li>
+
+      <li id="liSessions">
+        <div class="card text-white bg-danger mb-3 " id="sessionSize">
+          <div class="card-header" id="sessionsHead">Session 3</div>
+          <div class="card-body">
+            <h5 class="card-title">Project</h5>
+            <p class="card-text" id="parSessions">In Session 3, you are asked to create your own project whether its a Website, Application
+              or a Game.<br>You will be awarded a Certificate for your completion of the project with a score that is based on your
+              creativity in the project.
+            </p>
+            
+          </div>
+        </div>
+      </li>
+    </ul>
+
+
+
+<div class="socialMediaIcons">
+        <!-- Facebook -->
+    <a href="#"><i id="icons" class="fab fa-facebook-f fa-2x" style="color: #3b5998;"></i></a>
+
+    <!-- Twitter -->
+    <a href="#"><i id="icons" class="fab fa-twitter fa-2x" style="color: #55acee;" hidden></i></a>
+
+    <!-- Instagram -->
+    <a href="#"><img id="imgIcon" src="instagramIcon.png"></a>
+
+    <!-- Linkedin -->
+    <i id="icons" class="fab fa-linkedin-in fa-2x" style="color: #0082ca; margin-left:20px"></i>
+
+    <!-- Youtube -->
+    <i id="icons" class="fab fa-youtube fa-2x" style="color: #ed302f;"></i>
+
+    <!-- Whatsapp -->
+    <i id="icons" class="fab fa-whatsapp fa-2x" style="color: #25d366;"></i>
+</div>
+
+
+
+    <script type="text/javascript">
+      // When the user clicks on div, open the popup
+      function myFunction1() {
+        var popup = document.getElementById("myPopup1");
+        popup.classList.toggle("show");
+      }
+
+      function myFunction2() {
+        var popup = document.getElementById("myPopup2");
+        popup.classList.toggle("show");
+      }
+
+      function myFunction3() {
+        var popup = document.getElementById("myPopup3");
+        popup.classList.toggle("show");
+      }
+
+
+
+      window.addEventListener('scroll', reveal);
+
+      function reveal(){
+        var reveals = document.querySelectorAll('.reveal');
+
+        for(var i = 0; i < reveals.length; i++)
+        {
+            var windowheight = window.innerHeight;
+            var revealtop = reveals[i].getBoundingClientRect().top;
+            var revealpoint = 150;
+
+            if(revealtop < windowheight - revealpoint){
+              reveals[i].classList.add('active');
+            }
+            else{
+              reveals[i].classList.remove('active');
+            }
+        }
+
+      }
+
+
+      </script>
+    
+    
+</body>
+</html>

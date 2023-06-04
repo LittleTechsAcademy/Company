@@ -1,0 +1,344 @@
+
+
+#Logo
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+#liImgs{
+  display:inline;
+  padding-right:26px;
+  margin-left:-16px;
+}
+
+.ulImgs{
+  display:inline-flex;
+}
+#img
+{
+    width:505px;   
+    height:500px; 
+    border-radius:2%;
+}
+
+#img:hover
+{
+  transition: 1s;
+  opacity:0.9;
+}
+
+welcome
+{
+  font-size:30px;
+  font-weight:bold;
+
+}
+
+.divAboutUs
+{
+  float:left;
+  width:50%;
+  margin-top:1%;
+}
+
+.divSessions
+{
+  float:right;
+  width:50%;
+  margin-top:1%;
+}
+
+.divOffer
+{
+  text-align:center;
+  width:540px;
+  margin-left:470px;
+  display:flex;
+}
+
+.welcome
+{
+  text-align:center;
+  color: white;
+}
+
+#subTitle
+{
+    color:white;
+    text-decoration: underline;
+}
+
+#prgrphs
+{
+    color: white;
+    font-size:23px;
+    line-height: 30px;
+}
+
+#prgrphsAboutUs
+{
+    color: white;
+    font-size:25px;
+    line-height: 37px;
+    width:90%;
+}
+
+.WebIntro
+{
+    margin-left:10px;
+}
+.middleDiv
+{
+    background-color: #4169E1;
+    width:97.1%; 
+    height:515px;
+    margin:auto; 
+    margin-top:0.5%;
+    border-radius:2%;
+}
+
+#offer
+{
+    color: white;
+    font-size:30px;
+    text-align:center;
+}
+
+#ulSessions
+{
+    display:flex;
+    margin-left:-21px;
+    margin-top:8px;
+}
+
+#liSessions
+{
+    display:inline;
+    padding:5px;
+}
+
+#parSessions
+{
+    font-size:17px;
+}
+
+#sessionsHead
+{
+    font-size:23px;
+    font-weight:bold;
+}
+
+#sessionSize
+{
+  width:506px;
+  height:300px;
+}
+
+
+#viewDetails
+{
+  font-size:16px;
+  transition: 0.5s;
+}
+
+#viewDetails:hover
+{
+  font-size: 18px;
+}
+
+.socialMediaIcons
+{
+  background-color:#E0E0E0;
+  padding-left:565px;
+}
+
+#imgIcon
+{
+  width:45px;
+  height:45px;
+  margin-bottom:15px;
+  margin-left:14px;
+}
+
+#icons
+{
+  padding:25px;
+
+}
+ 
+
+.reveal{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: all 2s ease;
+}
+
+.reveal.active{
+  transform: translateY(0px);
+  opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 740px) {
+  #Logo {
+    width: 80%;
+    margin:auto;
+  }
+
+  #img {
+    width: 114px;
+    height: 140px;
+  }
+
+  #liImgs{
+    display:inline;
+    padding-right:20px;
+  }
+
+  .ulImgs{
+    display:inline-flex;
+    margin-left:-19px;
+  }
+
+  .middleDiv
+{
+    background-color: #4169E1;
+    width: 350px; 
+    height:100%;
+    margin-top:0.5%;
+    border-radius:1%;
+    margin-left:5px;    
+}
+
+welcome
+{
+  font-size:25px;
+  font-weight:bold;
+}
+
+#subTitle
+{
+    color:white;
+    text-decoration: underline;
+    font-size:23px;
+}
+
+#prgrphs
+{
+    color: white;
+    font-size:17px;
+    line-height: 22px;
+}
+
+#prgrphsAboutUs
+{
+    color: white;
+    font-size:14px;
+    line-height: 25px;
+    width:90%;
+}
+
+  .divOffer {
+    width: 90%;
+    margin:auto;
+    margin-right:20px;
+  }
+
+  #offer
+{
+    color: white;
+    font-size:18px;
+    text-align:center;
+}
+
+  #ulSessions
+{
+    display:block;
+    margin-left:-40px;
+    margin-top:8px;
+}
+
+#liSessions
+{
+    display:block;
+    padding:5px;
+}
+
+#parSessions
+{
+    font-size:17px;
+}
+
+#sessionsHead
+{
+    font-size:23px;
+    font-weight:bold;
+}
+
+#sessionSize
+{
+  width:349px;
+  height:330px;
+}
+
+.socialMediaIcons
+{
+  background-color:#E0E0E0;
+  padding-left:0px;
+  width:360px;
+}
+
+#imgIcon
+{
+  width:45px;
+  height:45px;
+  margin-bottom:17px;
+  margin-left:24px;
+  margin-right:-21px;
+}
+
+#icons
+{
+  padding:25px;
+  width:5px;
+  height:5px;
+}
+
+
+.reveal{
+  position: relative;
+  transform: translateY(0px);
+  opacity: 1;
+  transition: all 2s ease;
+}
+  
+.reveal.active{
+  transform: translateY(0px);
+  opacity: 1;
+  }
+}
+
+
