@@ -152,20 +152,21 @@ welcome
 .socialMediaIcons
 {
   background-color:#E0E0E0;
-  padding-left:565px;
+  padding-left:505px;
+
 }
 
 #imgIcon
 {
-  width:45px;
-  height:45px;
-  margin-bottom:15px;
+  width:67px;
+  height:67px;
+  margin-bottom:20px;
   margin-left:14px;
 }
 
 #icons
 {
-  padding:25px;
+  padding:60px;
 
 }
  
@@ -313,16 +314,16 @@ welcome
 
 #imgIcon
 {
-  width:45px;
-  height:45px;
-  margin-bottom:17px;
+  width:60px;
+  height:60px;
+  margin-bottom:22px;
   margin-left:24px;
   margin-right:-21px;
 }
 
 #icons
 {
-  padding:31px;
+  padding:36.5px;
   width:5px;
   height:5px;
 }
